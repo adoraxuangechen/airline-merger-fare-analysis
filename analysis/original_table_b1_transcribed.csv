@@ -1,0 +1,17 @@
+event_quarter,printed_coefficient,printed_standard_error,source_pdf_page,status
+-8,-0.012,0.018,25,transcribed_not_verified_output
+-7,-0.007,0.017,25,transcribed_not_verified_output
+-6,-0.009,0.016,25,transcribed_not_verified_output
+-5,-0.004,0.015,25,transcribed_not_verified_output
+-4,0.002,0.014,25,transcribed_not_verified_output
+-3,-0.001,0.014,25,transcribed_not_verified_output
+-2,-0.003,0.013,25,transcribed_not_verified_output
+0,0.01,0.012,25,transcribed_not_verified_output
+1,0.015,0.014,25,transcribed_not_verified_output
+2,0.021,0.015,25,transcribed_not_verified_output
+3,0.034,0.016,25,transcribed_not_verified_output
+4,0.041,0.017,25,transcribed_not_verified_output
+5,0.062,0.019,25,transcribed_not_verified_output
+6,0.071,0.021,25,transcribed_not_verified_output
+7,0.083,0.022,25,transcribed_not_verified_output
+8,0.089,0.023,25,transcribed_not_verified_output
