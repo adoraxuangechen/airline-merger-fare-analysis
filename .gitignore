@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+*.csv
+*.pkl
+figures/
+data_audit.json
+preparation.json
+results.json
+table_*.tex
