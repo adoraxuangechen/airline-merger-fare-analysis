@@ -3,10 +3,19 @@ __pycache__/
 .venv/
 .env
 .DS_Store
-*.csv
-*.pkl
-figures/
-data_audit.json
-preparation.json
-results.json
-table_*.tex
+
+# The exact original CSV is versioned as data/DB1B_2005_2010.csv.gz.
+/data/*.csv
+/data/*.gz
+/data/.db1b-download-*
+/data/.db1b-unpack-*
+
+# Large regenerable intermediate panels and local reruns.
+/results/clean_route_quarter_panel.csv
+/results/original_route_quarter_panel.csv
+/results_recheck/
+/provenance_recheck/
+/provenance/mktdata79q1to16q3.zip
+/exported_pdf/
+
+/delivery/
