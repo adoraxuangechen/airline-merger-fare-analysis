@@ -1,0 +1,66 @@
+[
+  {
+    "id": "borenstein_market",
+    "author": "Borenstein, Severin",
+    "date": "n.d.",
+    "title": "Description of ‘Market Data’ Files Created by Severin Borenstein",
+    "url": "https://faculty.haas.berkeley.edu/borenste/mktdata.htm",
+    "supports": "Operating carrier interpretation; unordered airport-pair and carrier-set; one/two coupon distinction; one-way-equivalent cell mean fares; prior aggregation and screening.",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "nber_data",
+    "author": "National Bureau of Economic Research",
+    "date": "n.d.",
+    "title": "Department of Transportation DB1A/DB1B",
+    "url": "https://www.nber.org/research/data/department-transportation-db1adb1b",
+    "doi": "10.60592/tb1p-9p78",
+    "supports": "Borenstein archive identity and available source years; quarter based on ticket first travel date; processing before market-carrier aggregation.",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "bts_db1b",
+    "author": "Bureau of Transportation Statistics",
+    "date": "n.d.",
+    "title": "Airline Origin and Destination Survey (DB1B): Database Profile",
+    "url": "https://www.transtats.bts.gov/DatabaseInfo.asp?QO_VQ=EFI&Yv0x=D",
+    "supports": "Historical DB1B 10 percent ticket sample from reporting carriers; quarterly data and transported-passenger itinerary details.",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "delta_announcement",
+    "author": "Delta Air Lines",
+    "date": "2008-04-14",
+    "title": "Delta Air Lines, Northwest Airlines Combining To Create America’s Premier Global Airline",
+    "url": "https://ir.delta.com/news/news-details/2008/Delta-Air-Lines-Northwest-Airlines-Combining-To-Create-Americas-Premier-Global-Airline/default.aspx",
+    "supports": "Merger agreement announcement date; projected revenue/cost synergies; pre-merger network discussion.",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "delta_close",
+    "author": "Delta Air Lines",
+    "date": "2008-10-29",
+    "title": "Delta and Northwest Merge, Creating Premier Global Airline",
+    "url": "https://ir.delta.com/news/news-details/2008/Delta-and-Northwest-Merge-Creating-Premier-Global-Airline/default.aspx",
+    "supports": "Merger closing date, with operational integration expected subsequently.",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "doj_review",
+    "author": "U.S. Department of Justice, Antitrust Division",
+    "date": "2008-10-29",
+    "title": "Statement of the Department of Justice’s Antitrust Division on its Decision to Close its Investigation of the Merger of Delta Air Lines Inc. and Northwest Airlines Corporation",
+    "url": "https://www.justice.gov/archive/atr/public/press_releases/2008/238849.htm",
+    "supports": "Regulator’s prospective expectation of efficiencies and limited competitive overlap; not ex-post proof of merger benefits.",
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "nber_recession",
+    "author": "National Bureau of Economic Research, Business Cycle Dating Committee",
+    "date": "2010-09-20",
+    "title": "Business Cycle Dating Committee Announcement September 20, 2010",
+    "url": "https://www.nber.org/news/business-cycle-dating-committee-announcement-september-20-2010",
+    "supports": "U.S. recession December 2007–June 2009, overlapping merger period.",
+    "accessed": "2026-09-21"
+  }
+]
