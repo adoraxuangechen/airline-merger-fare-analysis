@@ -1,0 +1,25 @@
+cohort,treated,group,year,quarters,equal_route_mean_fare,mean_of_quarterly_pooled_passenger_weighted_fares,min_routes_in_quarter,max_routes_in_quarter
+balanced_24_quarters,0,Legacy comparison routes,2005,4,186.63186549451353,114.89459195602764,102,102
+balanced_24_quarters,0,Legacy comparison routes,2006,4,195.65134645328305,125.49982164925342,102,102
+balanced_24_quarters,0,Legacy comparison routes,2007,4,196.84566434069961,128.8277768176487,102,102
+balanced_24_quarters,0,Legacy comparison routes,2008,4,213.28419374462649,140.31578327026133,102,102
+balanced_24_quarters,0,Legacy comparison routes,2009,4,199.61137780859082,131.83502108033409,102,102
+balanced_24_quarters,0,Legacy comparison routes,2010,4,214.63608356439224,148.07482372651694,102,102
+balanced_24_quarters,1,Overlap routes,2005,4,212.45416019926648,194.76642409431494,156,156
+balanced_24_quarters,1,Overlap routes,2006,4,229.87628501541633,208.19152259410964,156,156
+balanced_24_quarters,1,Overlap routes,2007,4,233.26696147295917,211.79841368876026,156,156
+balanced_24_quarters,1,Overlap routes,2008,4,245.46326591473812,223.38152865294435,156,156
+balanced_24_quarters,1,Overlap routes,2009,4,224.16383721435483,201.79361229526228,156,156
+balanced_24_quarters,1,Overlap routes,2010,4,240.40302884429153,220.4920582695602,156,156
+primary_fixed_260_available_cells,0,Legacy comparison routes,2005,4,186.34343393813549,114.89060369632907,102,104
+primary_fixed_260_available_cells,0,Legacy comparison routes,2006,4,193.68403519995371,125.39437098071964,104,104
+primary_fixed_260_available_cells,0,Legacy comparison routes,2007,4,194.69751221370444,128.71037336193422,104,104
+primary_fixed_260_available_cells,0,Legacy comparison routes,2008,4,211.29488232656129,140.27061211597965,104,104
+primary_fixed_260_available_cells,0,Legacy comparison routes,2009,4,197.9996227540224,131.81790304835101,104,104
+primary_fixed_260_available_cells,0,Legacy comparison routes,2010,4,213.57133403615353,148.0296928039748,103,104
+primary_fixed_260_available_cells,1,Overlap routes,2005,4,212.45416019926648,194.76642409431494,156,156
+primary_fixed_260_available_cells,1,Overlap routes,2006,4,229.87628501541633,208.19152259410964,156,156
+primary_fixed_260_available_cells,1,Overlap routes,2007,4,233.26696147295917,211.79841368876026,156,156
+primary_fixed_260_available_cells,1,Overlap routes,2008,4,245.46326591473812,223.38152865294435,156,156
+primary_fixed_260_available_cells,1,Overlap routes,2009,4,224.16383721435483,201.79361229526228,156,156
+primary_fixed_260_available_cells,1,Overlap routes,2010,4,240.40302884429153,220.4920582695602,156,156

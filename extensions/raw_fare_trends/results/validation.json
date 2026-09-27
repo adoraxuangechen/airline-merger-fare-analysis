@@ -1,0 +1,103 @@
+{
+  "source_file": "results/panel_legacy_valid.csv",
+  "source_sha256": "2eb9ccbfb13d7d16c8b12f901341c9cbf11bd2f5a88f6a606bef84284f3ce9fe",
+  "source_rows": 6235,
+  "primary_routes": 260,
+  "primary_route_counts": {
+    "overlap": 156,
+    "legacy_comparison": 104
+  },
+  "balanced_route_counts": {
+    "overlap": 156,
+    "legacy_comparison": 102
+  },
+  "unobserved_route_quarters": [
+    {
+      "route": "CLD-LAX",
+      "treated": 0,
+      "missing_t": 1,
+      "missing_quarter": "2005Q1"
+    },
+    {
+      "route": "CLD-LAX",
+      "treated": 0,
+      "missing_t": 2,
+      "missing_quarter": "2005Q2"
+    },
+    {
+      "route": "CLD-LAX",
+      "treated": 0,
+      "missing_t": 3,
+      "missing_quarter": "2005Q3"
+    },
+    {
+      "route": "CLD-LAX",
+      "treated": 0,
+      "missing_t": 23,
+      "missing_quarter": "2010Q3"
+    },
+    {
+      "route": "LAS-PSP",
+      "treated": 0,
+      "missing_t": 1,
+      "missing_quarter": "2005Q1"
+    }
+  ],
+  "manual_aggregation_checks": [
+    {
+      "treated": 0,
+      "t": 1,
+      "observed_routes": 102,
+      "equal_route_abs_difference": 2.842170943040401e-14,
+      "pooled_passenger_abs_difference": 0.0
+    },
+    {
+      "treated": 0,
+      "t": 12,
+      "observed_routes": 104,
+      "equal_route_abs_difference": 0.0,
+      "pooled_passenger_abs_difference": 0.0
+    },
+    {
+      "treated": 0,
+      "t": 24,
+      "observed_routes": 104,
+      "equal_route_abs_difference": 2.842170943040401e-14,
+      "pooled_passenger_abs_difference": 0.0
+    },
+    {
+      "treated": 1,
+      "t": 1,
+      "observed_routes": 156,
+      "equal_route_abs_difference": 2.842170943040401e-14,
+      "pooled_passenger_abs_difference": 0.0
+    },
+    {
+      "treated": 1,
+      "t": 12,
+      "observed_routes": 156,
+      "equal_route_abs_difference": 2.842170943040401e-14,
+      "pooled_passenger_abs_difference": 0.0
+    },
+    {
+      "treated": 1,
+      "t": 24,
+      "observed_routes": 156,
+      "equal_route_abs_difference": 0.0,
+      "pooled_passenger_abs_difference": 0.0
+    }
+  ],
+  "all_route_fares_equal_revenue_divided_by_passengers": true,
+  "all_saved_log_fares_equal_log_of_saved_fare": true,
+  "maximum_absolute_primary_minus_balanced_quarter_mean_dollars": {
+    "Legacy comparison routes": 2.3170911450851293,
+    "Overlap routes": 0.0
+  },
+  "software": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2"
+  },
+  "meaning": "Descriptive nominal fare levels. Equal-route arithmetic means are not regression estimates and do not recover the log-DID coefficient."
+}
