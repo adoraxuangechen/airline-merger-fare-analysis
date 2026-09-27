@@ -1,0 +1,40 @@
+{
+  "archive_name": "DB1B_2005_2010.csv.gz",
+  "archive_bytes": 52692660,
+  "archive_sha256": "53223ba01b441d6ecbf74fbe995da2dedb272f3a1b27adc158d69ee6ab6c795a",
+  "original_filename": "DB1B_2005_2010 copy.csv",
+  "original_bytes": 200700593,
+  "original_sha256": "68822d60114c61af9f6ce8d9084aa20276f0d5b1b64a9a80b0e372929f1d19cb",
+  "compression": "gzip, compression level 9, header mtime=0; decompresses to the exact supplied CSV bytes",
+  "rows": 4175354,
+  "columns": [
+    "cr1",
+    "cr2",
+    "yr",
+    "qtr",
+    "cop",
+    "ap1",
+    "ap2",
+    "pax",
+    "nsdst",
+    "avprc",
+    "avdst"
+  ],
+  "years": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "unit": "Borenstein/NBER aggregate operating-carrier-set × unordered airport-pair × quarter × coupon-category cell; not an individual ticket",
+  "source_archive_url": "https://data.nber.org/dot-db1a/mktdata79q1to16q3.zip",
+  "source_archive_sha256": "75b2fe06890bf54f3466824e0309e3d52a74c3dfc3b22f940000face130ecfa9",
+  "documentation_url": "https://faculty.haas.berkeley.edu/borenste/mktdata.htm",
+  "source_landing_page": "https://www.nber.org/research/data/department-transportation-db1adb1b",
+  "citation": "Severin Borenstein, Market Data files; hosted by NBER, Department of Transportation DB1A/DB1B, doi:10.60592/tb1p-9p78.",
+  "known_conversion_difference": "42 source carrier entries containing the literal code NA are blank in this supplied CSV (34 rows, 6453 sampled passengers). They are not repaired. All aligned numeric/airport values match the public archive within 5.01e-12.",
+  "upstream_boundary": "This repository starts with the supplied aggregate CSV. Its relationship to the NBER aggregate archive was checked; raw-ticket screening was not independently reconstructed.",
+  "archive_url": "https://github.com/adoraxuangechen/airline-merger-fare-analysis/releases/download/writing-sample-2026-09/DB1B_2005_2010.csv.gz"
+}
