@@ -1,0 +1,15 @@
+{
+  "expected_quarters": 24,
+  "completed_market_files": 24,
+  "missing_quarters": [],
+  "unexpected_quarters": [],
+  "unique_named_schemas": 1,
+  "named_column_counts": [
+    41
+  ],
+  "total_compressed_bytes": 2007986102,
+  "total_uncompressed_csv_bytes": 31726071075,
+  "issues": [],
+  "download_errors": [],
+  "all_checks_pass": true
+}
