@@ -3,19 +3,19 @@ __pycache__/
 .venv/
 .env
 .DS_Store
-
-# The exact original CSV is versioned as data/DB1B_2005_2010.csv.gz.
+/data/*.zip
 /data/*.csv
 /data/*.gz
-/data/.db1b-download-*
-/data/.db1b-unpack-*
-
-# Large regenerable intermediate panels and local reruns.
-/results/clean_route_quarter_panel.csv
-/results/original_route_quarter_panel.csv
+/data/*.partial
+/data/bts_market/
+/data/bts_pilot/
+/results/all_route_quarters.csv.gz
 /results_recheck/
-/provenance_recheck/
-/provenance/mktdata79q1to16q3.zip
-/exported_pdf/
-
-/delivery/
+/papers_recheck/
+/qa/
+/results_from_zip/
+/results_from_csv/
+/source_recheck/
+**/Rlibrary/
+**/.cache/
+*.private.txt

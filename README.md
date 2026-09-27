@@ -1,85 +1,99 @@
-# Assessing Fare Changes After the Delta–Northwest Merger
+# Fare Changes After the Delta–Northwest Merger: Market Composition and Competitive Exposure
 
-**Xuange (Adora) Chen · Writing sample and reproducible analysis · September 2026**
+**Research question:** How did fares change on airport pairs with substantial pre-merger Delta–Northwest overlap, and how much does that comparison depend on market composition?
 
-How did fares on routes with pre-merger Delta–Northwest overlap change relative to comparison routes? This project uses 2005–2010 aggregate airline data to build passenger-weighted market fares, estimate relative changes, and examine whether the comparison supports a causal interpretation.
+This project uses **Borenstein's NBER-hosted market data for 2005–2010**. It reconstructs passenger-weighted airport-pair fares and compares changes across fixed, pre-announcement route groups. The primary analysis remains on this data source; newly retrieved BTS raw files are a separate documented resource.
 
-[**Read the writing sample**](papers/writing_sample.pdf) · [Technical supplement](papers/technical_supplement.pdf) · [Download original dataset](https://github.com/adoraxuangechen/airline-merger-fare-analysis/releases/download/writing-sample-2026-09/DB1B_2005_2010.csv.gz) · [Portfolio](https://xuangechen.com/)
+**Revision: September 27, 2026.**
 
-## Main finding
+Accepted for poster presentation at the Econometric Society Summer School.
 
-In the main sample of **156 overlap routes and 105 comparison routes**, fares on overlap routes exhibit an estimated **5.72% relative decline** from 2008Q4 onward. The route- and quarter-fixed-effects coefficient is −0.05890 (route-clustered SE 0.01889; 6,259 route-quarter observations). The transformed 95% interval is [−9.16%, −2.15%].
+**Software and methods:** Python for data construction and estimation; R for HonestDiD and independent regression checks; Stata for independent fixed-effects replication. The design combines route and quarter fixed effects, event studies, baseline market-composition controls, and within-route carrier fare comparisons.
 
-This is a **descriptive relative change, not a credible standalone estimate of the merger's causal effect**. The groups' relative fare paths already differ before the announcement: a separate 2005–2007 event study rejects joint equality of its pre-reference coefficients (F(11,260) = 7.46, p < 0.001). Differences in route composition, demand exposure and service mix remain important. A fare-only analysis also cannot identify changes in passenger welfare.
+## Read the work
 
-![Quarterly relative fare contrasts and 95% intervals](results/event_study.png)
+- [Writing sample — English PDF](papers/writing_sample_v2.pdf)
+- [Technical supplement](papers/technical_supplement_v2.pdf)
+- [Readable paper text](papers/writing_sample_v2.md)
 
-The open point at 2008Q3 is the omitted reference quarter, fixed at zero by construction. Other points compare the overlap–comparison log-fare gap with that quarter's gap. The figure does not measure either group's absolute fare change; its intervals are pointwise, not simultaneous bands.
+## Main findings
 
-Changing the sample definition changes the population being compared:
-
-| Sample definition | Overlap routes | Comparison routes | Estimated relative change |
+| Comparison | Relative fare change | 95% interval | Treated / comparison routes |
 |---|---:|---:|---:|
-| Main: material single-carrier overlap in 2007; unexposed legacy comparison | 156 | 105 | −5.72% |
-| Any DL/NW carrier-code presence during 2007; legacy comparison | 3,706 | 1,379 | −1.23% |
-| Broad pre-closing presence; legacy comparison | 8,180 | 6,424 | +0.80% |
-| Broad pre-closing presence; all other pre-observed routes | 8,180 | 23,664 | +1.54% |
+| Previous baseline | −5.72% | [−9.16%, −2.15%] |156 / 105|
+| Same valid-distance sample, unadjusted | −5.58% | [−9.05%, −1.99%] |156 / 104|
+| Distance-bin × quarter effects | −3.68% | [−7.18%, −0.05%] |156 / 104|
+| Distance and baseline itinerary-composition × quarter effects | −2.45% | [−5.92%, 1.14%] |156 / 104|
+| Legacy comparison, common support | −1.80% | [−5.69%, 2.26%] |133 / 35|
+| Expanded comparison, common support | −4.95% | [−7.28%, −2.56%] |146 / 178|
 
-These rows are not interchangeable estimates of one fixed population. The broader rules count any appearance in either operating-carrier field and need not establish simultaneous independent service. Full eligibility and comparison-group definitions appear in the supplement and [analysis methods](analysis/README.md); exact results are in [regression_results.csv](results/regression_results.csv).
+Allowing different market types to follow different quarterly fare paths changes the estimate materially. Expanding the comparison population also matters. **Pre-merger fare differences remain after adjustment**, so these are conditional relative fare changes, not identified merger effects or consumer-welfare estimates. All planned diagnostics, including unfavorable ones, are saved in the [model registry](results/model_registry.csv).
 
-## Data and construction
+The concentration extension reports operating-code shares, their coverage, a conditional single-carrier HHI, and a frozen-share merger-exposure proxy. It does not label incomplete carrier attribution as a regulatory firm-level HHI. Only four treated routes satisfy the sustained one-coupon-overlap rule; one coupon does not independently establish physical nonstop service.
 
-The original project input is now available as a **GitHub Release asset**, compressed without changing its contents. The 50.25 MiB gzip archive expands to the original `DB1B_2005_2010 copy.csv` (200,700,593 bytes, 4,175,354 records). The verification script checks the SHA256 of both files before using them.
+## Reproduce
 
-This is a **pre-aggregated extract**, not raw individual DB1B tickets. Each record identifies an operating-carrier set, an **unordered airport pair**, a quarter and a one-/two-coupon category, with sampled passenger count and mean one-way-equivalent fare. Market fare is `sum(pax × avprc) / sum(pax)` across all retained cells in that market-quarter. The analysis takes logs after aggregation and gives each route-quarter equal regression weight in the main specification.
-
-An independent row-by-row comparison with the public Borenstein/NBER archive matched all 4,175,354 records' numeric and airport values within 5.01 × 10⁻¹². It also identified **42 literal carrier-code `NA` entries already converted to blanks** in the supplied CSV (34 records). The original file is preserved, and the analysis retains those records in fare totals. This audit verifies the aggregate extract's relationship to the archive; it does not independently reconstruct upstream ticket screening.
-
-The cleaning rules remove four same-airport records and no other rows from this input. The main sample then requires all four quarters of 2007 with at least 100 sampled passengers per quarter. Treatment requires DL and NW each to have at least 5% single-carrier passenger share in the same three or four quarters. Comparison routes have no DL/NW presence in 2007 and at least 5% combined single-carrier share from AA, AS, CO, UA, US and HP in at least three quarters. Classification remains fixed afterwards.
-
-Data definitions and attribution: [Severin Borenstein's Market Data documentation](https://faculty.haas.berkeley.edu/borenste/mktdata.htm), [NBER dataset page](https://www.nber.org/research/data/department-transportation-db1adb1b), [DOI: 10.60592/tb1p-9p78](https://doi.org/10.60592/tb1p-9p78). See [data/README.md](data/README.md) and [provenance/README.md](provenance/README.md).
-
-## Reproduce the results
-
-Python 3.12 is the verified version. From the repository root:
+Python 3.12 or later is required; this revision was verified with Python 3.12. Run from this repository's root in a dedicated environment:
 
 ```sh
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python scripts/download_and_verify.py
-python analysis/run_analysis.py --input "data/DB1B_2005_2010 copy.csv" --out results_recheck --printed-b1 analysis/original_table_b1_transcribed.csv
+python scripts/download_nber.py
+python analysis/extend_analysis.py --source data/NBER_2005_2010.csv.gz --out results_recheck
+python analysis/independent_check.py --results results_recheck
 ```
 
-On Windows, activate the environment with `.venv\Scripts\activate` in place of the `source` command. The download/extraction step uses only Python's standard library. Alternatively, download the release asset manually into `data/` and run the same verification script; an existing verified CSV is left unchanged.
+The source download is about 212 MB and the extracted six-year CSV is compressed. Checksums prevent silently accepting a changed archive. The script preserves literal carrier code `NA`, selects 4,175,354 records, and never overwrites the source. To use an already downloaded archive:
 
-The analysis reads the CSV without modifying it and writes all panels, classifications, tables and figures to the selected output directory. `results_recheck/` keeps a rerun separate from the committed results. A full run loads the 4.18 million-row file and constructs additional all-market panels, so it needs more memory and disk space than the small published main panel. No proprietary software or API key is required.
+```sh
+python scripts/download_nber.py --archive /path/to/mktdata79q1to16q3.zip --out data/NBER_2005_2010.csv.gz
+```
 
-Expected main results:
+Alternatively, the analysis accepts the verified source ZIP directly. The earlier supplied CSV remains available through the [historical download instructions](archive/v1/data/README.md); it is retained for provenance rather than silently replaced. From the current repository root, use `python archive/v1/scripts/download_and_verify.py` to retrieve that historical input into the archive directory.
 
-- Coefficient: **−0.0588984578886**; route-clustered SE: **0.0188886523421**.
-- Main sample: **261 routes, 6,259 route-quarters**.
-- Clean input: **4,175,350 records**; 2007-eligible pool: **5,535 routes**.
-- Input SHA256: `68822d60114c61af9f6ce8d9084aa20276f0d5b1b64a9a80b0e372929f1d19cb`.
+To rebuild the reviewed documents from the saved **current** `results/`:
 
-A complete run has been performed on the supplied CSV. Included checks compare coefficients and clustered standard errors from the absorbed estimator with explicit route/quarter dummy OLS and WLS on an actual-data subset containing unbalanced markets. The event-study checks cover every quarterly coefficient and standard error. Passenger totals, weighted fare sums, panel keys and specified sample transitions are also checked. See [results/results.json](results/results.json) for numerical validation output.
+```sh
+python documents/build_reference_style.py --out papers_recheck
+```
 
-## Files
+Document builds use Times New Roman on macOS or matplotlib's DejaVu Serif fonts and produce only the two English papers. The layout follows the author's reference article: centered title and abstract, numbered sections, three-rule tables, numbered equations, and hanging references. Numerical substitutions read the saved registries.
+
+## Additional descriptive and sensitivity analyses
+
+- [Raw mean fare paths](extensions/raw_fare_trends/README.md): nominal dollar levels for both primary route groups, with explicit equal-route averaging, alternative passenger weighting, and quarterly coverage.
+- [Unadjusted-design breakdown](extensions/unadjusted_honestdid/README.md): the causal contrast underlying the unadjusted -5.58% regression loses exclusion of zero at approximately M=0.08 (tested crossing bracket 0.076-0.077). The [exact projection-weight audit](extensions/pooled_weight_audit/README.md) preserves early-2008 weights and explains why its post-effect plug-in contrast differs from the reported pooled coefficient. The equal-weight completion-period target gives the same bracket.
+- [HonestDiD in R](extensions/honestdid/README.md): the authors' official package, fixed source commit, complete event covariance, and all sensitivity grids. The nine-quarter event-average target differs from the pooled main estimate. At M=0.5, the approximate robust interval is -34.4% to +42.0%; it does not establish the sign of a merger effect.
+- [Carrier-composition diagnostics](extensions/carrier_diagnostics/README.md): baseline Southwest interactions and within-route DL/NW versus other operating-code fares, with all paired panels and independent checks.
+- [Cross-language validation](extensions/cross_language/README.md): Six specifications actually re-estimated in R 4.5.3 and Stata 19.5. All samples and design ranks agree; maximum absolute coefficient/standard-error differences from Python are 2.14e-13 / 6.96e-16. Executed scripts, software versions, and full comparison tables are included.
+
+Adding baseline WN-presence by quarter changes the legacy/expanded comparisons to -2.70%/-2.55%; share-bin interactions give -1.63%/+0.82%. These follow-up specifications are retained together. The within-route DL/NW-to-other-code fare ratio changes by +1.57% between 2007 and 2009-2010 (95% interval -0.70% to +3.89%). The other-code group pools single-carrier journeys with any recorded code other than DL or NW; it may include regional affiliates, including DL/NW affiliates. Mixed-code journeys are excluded. This descriptive ratio differs from the market-level comparison.
+
+
+## Where to look
 
 | Location | Contents |
 |---|---|
-| `papers/` | Main writing sample and English technical supplement, including editable and text versions |
-| `analysis/` | Complete analysis pipeline, detailed cleaning/estimation documentation and original Table B1 transcription |
-| `data/` | Dataset metadata and source attribution; the full compressed original is linked as a Release asset |
-| `documents/` | Source templates and DOCX builder; [rebuild instructions](documents/README.md) |
-| `scripts/` | Download, checksum verification and exact extraction |
-| `results/` | Main analysis panel, route classifications, audit counts, estimates, event coefficients and figures |
-| `provenance/` | Source-archive comparison script and reports, carrier-code discrepancies and primary sources |
+|[analysis/](analysis/README.md)|Current source-to-results pipeline and independent validation|
+|[documents/](documents/README.md)|English main paper, supplement, and PDF builders|
+|[results/](results/README.md)|Saved panels, route features, estimates, event coefficients and figures|
+|[data/](data/README.md)|Data access, source distinction and checksums|
+|[provenance/](provenance/README.md)|Dated design log, source verification, literature notes and BTS manifests|
+|[archive/v1/](archive/v1/README.md)|Preserved earlier paper, analysis, results and reconciliation|
 
-The two large all-market intermediate panels are generated by the pipeline and omitted from Git. The small main analysis panel and saved results are included. Earlier root-level scripts are retired entry points; `run_analysis.py` at the root forwards to the current pipeline.
+The complete original-source data are larger than appropriate for ordinary Git tracking. Public download scripts, source URLs and cryptographic checksums make them reproducible. The large all-route intermediate is regenerated by the pipeline; selected analysis panels are included.
 
-## Relation to earlier versions
+## What changed in this revision
 
-The audited original implementation produced approximately +5.13%. Correcting its fixed-effects calculation while holding observations, outcome and groups unchanged gives approximately +5.02%; further changes to fare aggregation, eligibility and group definitions lead to the current −5.72%. The [sequential comparison](results/specification_bridge.csv) makes these changes explicit. It is order-dependent and should not be described as a sign reversal caused by one coding fix.
+The prior −5.72% design is reproduced before adding distance/service-composition controls, common support, expanded controls, competing-merger checks, route trends and concentration diagnostics. Source metadata and raw-download records are distinct from the economic argument. Theory motivates mechanisms; the paper does not infer collusion, efficiency gains or welfare from a fare coefficient.
 
-The original Figure 2 can be reproduced from the supplied code. The original Table B1's printed coefficients and standard errors cannot be matched at their printed precision; the comparison is saved in [original_table_b1_comparison.csv](results/original_table_b1_comparison.csv). The current writing sample uses the verified pipeline and reports its own results. The supplement preserves useful technical and literature context while keeping the main sample focused on the economic question.
+The old approximately +5% result used different measurement and route definitions. Correcting only its fixed-effects implementation does not reverse its sign. That historical reconciliation remains [archived](archive/v1/results/specification_bridge.csv), separate from the current comparison-design extension.
+
+Data attribution: Severin Borenstein, Market Data files; National Bureau of Economic Research, [Department of Transportation DB1A/DB1B](https://doi.org/10.60592/tb1p-9p78). Source documentation: [Borenstein's field and filtering description](https://faculty.haas.berkeley.edu/borenste/mktdata.htm). Raw BTS sources: [official archive](https://transtats.bts.gov/PREZIP/).
+
+## Revision history and earlier drafts
+
+The [public archive scope](archive/README.md) identifies three items retained only in the private preservation copy. Included historical PDFs and analysis files retain their original bytes; this release does not rewrite existing Git history.
+
+The [revision history](provenance/revision_history.md) links the December 2025 course paper, the prior public writing sample, and an intermediate review snapshot. Original PDFs are preserved byte-for-byte with checksums. Existing Git history is retained; historical file dates and snapshot dates are recorded separately, without backdating commits. The current paper and replication commands above remain the entry point for current findings.
