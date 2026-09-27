@@ -1,0 +1,50 @@
+{
+  "source_panel_sha256": "2eb9ccbfb13d7d16c8b12f901341c9cbf11bd2f5a88f6a606bef84284f3ce9fe",
+  "source_weights_sha256": "f8f690f5b857ac4d5b97db06da872fb2f765df11518b34c3bc63e663ec815ac7",
+  "source_weight_audit_sha256": "1ae5469f6a923df86f6470c27239ab5eb45016c208c48a2782df9ade94b051f7",
+  "independent_covariance_max_abs_difference": 2.999987411267391e-16,
+  "reference": "2007Q4",
+  "allowed_effect_window": "2008Q1\u20132010Q4",
+  "no_effect_assumption": "Effects are zero before 2008Q1.",
+  "l_vec": [
+    -0.06677621184549518,
+    -0.0667762118454958,
+    -0.06677621184549516,
+    0.11117982000371478,
+    0.11117982000371464,
+    0.11117982000371811,
+    0.11117982000371807,
+    0.11117982000371805,
+    0.11117982000371802,
+    0.11117982000371805,
+    0.11056143997026392,
+    0.11117982000371798
+  ],
+  "sum_early_three_weights": -0.2003286355364861,
+  "sum_completion_nine_weights": 1.0000000000000016,
+  "sum_weights": 0.7996713644635154,
+  "full_pooled_log_coefficient": -0.05744524765216508,
+  "full_pooled_percent": -5.582641530825745,
+  "pre_period_nuisance_contribution_log": 0.020992025902408763,
+  "pooled_associated_target_b": -0.07843727355457383,
+  "pooled_associated_target_se": 0.016753637256826406,
+  "pooled_associated_target_percent": -7.543994752162403,
+  "normal95_log": [
+    -0.11127379918800201,
+    -0.04560074792114565
+  ],
+  "normal95_percent": [
+    -10.530625103181157,
+    -4.457665919245083
+  ],
+  "exact_bridge_error": -6.938893903907228e-18,
+  "nine_quarter_reference_rebase": {
+    "2007Q4_target_log": -0.08335115769993999,
+    "2007Q4_target_percent": -7.997198443346562,
+    "2008Q3_reference_event_coefficient": -0.047689050445244,
+    "2008Q3_rebased_target_log": -0.03566210725469599,
+    "2008Q3_rebased_target_percent": -3.5033706486460128,
+    "interpretation": "This is a descriptive normalization comparison, not a second HonestDiD run. Changing the unaffected reference assumptions would change the sensitivity exercise."
+  },
+  "interpretation": "a_post prime tau_post is the causal functional associated with the pooled projection under zero effects before 2008Q1. It preserves negative 2008Q1\u2013Q3 weights. Its a_post prime b_post plug-in estimate is not the original pooled coefficient and is not a simple post-completion average. No pre-period recentering or manual confidence-set shifting is performed."
+}

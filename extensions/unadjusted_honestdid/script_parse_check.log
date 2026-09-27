@@ -1,0 +1,68 @@
+expression(self <- sub("^--file=", "", commandArgs()[grep("^--file=", 
+    commandArgs())][1]), root <- dirname(normalizePath(self)), 
+    args <- commandArgs(trailingOnly = TRUE), output_dir <- root, 
+    weights <- c(rep(0, 3), rep(1/9, 9)), target_label <- "nine-quarter unadjusted event-study mean", 
+    if (length(args) >= 2 && args[1] == "--weights") {
+        weights_file <- normalizePath(args[2])
+        weights_table <- read.csv(weights_file)
+        stopifnot("weight" %in% names(weights_table), nrow(weights_table) == 
+            12)
+        weights <- weights_table$weight
+        stopifnot(all(is.finite(weights)), sum(abs(weights)) > 
+            0)
+        output_dir <- file.path(root, "pooled_associated")
+        dir.create(output_dir, showWarnings = FALSE)
+        target_label <- "pooled-associated causal functional; not the pooled coefficient"
+        args <- args[-c(1, 2)]
+    }, lib_candidates <- c(file.path(root, "Rlibrary"), file.path(dirname(root), 
+        "honestdid_extension", "Rlibrary"), file.path(dirname(root), 
+        "honestdid", "Rlibrary")), existing <- lib_candidates[dir.exists(lib_candidates)], 
+    .libPaths(c(existing, .libPaths())), library(HonestDiD), 
+    stopifnot(as.character(packageVersion("HonestDiD")) == "0.2.8"), 
+    coef <- read.csv(file.path(root, "event_coefficients_full.csv")), 
+    sigma <- as.matrix(read.csv(file.path(root, "event_covariance.csv"), 
+        row.names = 1, check.names = FALSE)), stopifnot(identical(coef$term, 
+        rownames(sigma)), identical(coef$term, colnames(sigma)), 
+        min(eigen(sigma, symmetric = TRUE, only.values = TRUE)$values) > 
+            0), common <- list(betahat = coef$beta, sigma = sigma, 
+        numPrePeriods = 11, numPostPeriods = 12, l_vec = weights, 
+        alpha = 0.05), original <- do.call(HonestDiD::constructOriginalCS, 
+        common), write.csv(original, file.path(output_dir, "original_confidence_set.csv"), 
+        row.names = FALSE), if (length(args) && args[1] == "probe") mvals <- as.numeric(args[-1]) else mvals <- c(0, 
+        0.01, 0.02, 0.05, 0.1, 0.2, 0.5), rows <- list(), results <- list(), 
+    for (i in seq_along(mvals)) {
+        m <- mvals[i]
+        start <- Sys.time()
+        warnings <- character()
+        grid <- withCallingHandlers(do.call(HonestDiD::computeConditionalCS_DeltaRM, 
+            c(common, list(Mbar = m, hybrid_flag = "LF", hybrid_kappa = 0.005, 
+                postPeriodMomentsOnly = TRUE, returnLength = FALSE, 
+                gridPoints = 1L, grid.lb = 0, grid.ub = 0, seed = 20260927))), 
+            warning = function(w) {
+                warnings <<- c(warnings, conditionMessage(w))
+                invokeRestart("muffleWarning")
+            })
+        stopifnot(nrow(grid) == 1L, grid$grid == 0, grid$accept %in% 
+            c(0, 1))
+        other_warnings <- warnings[!grepl("CI is open at one of the endpoints", 
+            warnings, fixed = TRUE)]
+        if (length(other_warnings)) 
+            stop(paste(other_warnings, collapse = "; "))
+        record <- data.frame(Mbar = m, zero_accepted = as.integer(grid$accept), 
+            elapsed_seconds = as.numeric(difftime(Sys.time(), 
+                start, units = "secs")), expected_point_grid_open_warning_count = length(warnings), 
+            other_warning_count = 0)
+        rows[[i]] <- record
+        results[[i]] <- list(Mbar = m, grid = grid, warnings = warnings)
+        print(record)
+        flush.console()
+    }, run_label <- if (length(args)) paste0("probe_", gsub("[^0-9A-Za-z_]", 
+        "_", paste(args[-1], collapse = "_"))) else "initial_probe", 
+    write.csv(do.call(rbind, rows), file.path(output_dir, paste0(run_label, 
+        ".csv")), row.names = FALSE), saveRDS(list(inputs = common, 
+        target_label = target_label, seed_argument = 20260927, 
+        effective_internal_lf_seed = 0, internal_lf_simulations = 1000, 
+        results = results, sessionInfo = sessionInfo()), file.path(output_dir, 
+        paste0(run_label, ".rds"))), writeLines(capture.output(sessionInfo()), 
+        file.path(output_dir, "R_sessionInfo.txt")))
+PARSE_OK

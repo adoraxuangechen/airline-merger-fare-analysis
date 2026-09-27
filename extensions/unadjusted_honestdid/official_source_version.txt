@@ -1,0 +1,3 @@
+6813f02ed38f0b63bdca6915604b2eac90491303
+Version: 0.2.8
+Source: https://github.com/asheshrambachan/HonestDiD

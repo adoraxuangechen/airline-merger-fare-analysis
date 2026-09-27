@@ -1,0 +1,16 @@
+Tracing function "computeConditionalCS_DeltaRM" in package
+"namespace:HonestDiD"
+[1] "computeConditionalCS_DeltaRM"
+Untracing function "computeConditionalCS_DeltaRM" in package
+"namespace:HonestDiD"
+# A tibble: 2 × 5
+      lb       ub method Delta    Mbar
+   <dbl>    <dbl> <chr>  <chr>   <dbl>
+1 -0.168 -0.00100 C-LF   DeltaRM 0.076
+2 -0.169  0       C-LF   DeltaRM 0.077
+   Mbar zero_accepted closest_theta grid_lower grid_upper grid_step components
+1 0.076             0             0      -0.25        0.1     0.001          1
+2 0.077             1             0      -0.25        0.1     0.001          1
+  endpoint_truncation
+1               FALSE
+2               FALSE

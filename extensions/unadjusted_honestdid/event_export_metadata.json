@@ -1,0 +1,51 @@
+{
+  "source_panel_sha256": "2eb9ccbfb13d7d16c8b12f901341c9cbf11bd2f5a88f6a606bef84284f3ce9fe",
+  "n": 6235,
+  "routes": 260,
+  "nuisance_rank": 23,
+  "df_resid": 5929,
+  "model": "unadjusted event-study counterpart",
+  "controls": [
+    "route effects",
+    "quarter effects"
+  ],
+  "pooled_contrast_b": -0.057445247652156896,
+  "pooled_contrast_percent": -5.582641530824972,
+  "cr1_factor": 1.05550168629946,
+  "numPrePeriods": 11,
+  "numPostPeriods": 12,
+  "reference": "2007Q4",
+  "post_window": "2008Q1\u20132010Q4",
+  "target_window": "2008Q4\u20132010Q4",
+  "l_vec": [
+    0.0,
+    0.0,
+    0.0,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ],
+  "target_b": -0.08335115769993999,
+  "target_se": 0.017975871487944644,
+  "normal95_log": [
+    -0.11858321840703193,
+    -0.048119096992848054
+  ],
+  "t95_log": [
+    -0.11874862467952563,
+    -0.047953690720354346
+  ],
+  "eigenvalue_min": 2.1125438159133645e-05,
+  "eigenvalue_max": 0.004114878013080466,
+  "condition_number": 194.78308483279255,
+  "pretest_F": 7.95343243922172,
+  "pretest_p": 6.543240796800462e-12,
+  "max_beta_error_vs_saved": 2.914335439641036e-16,
+  "max_se_error_vs_saved": 5.898059818321144e-17
+}

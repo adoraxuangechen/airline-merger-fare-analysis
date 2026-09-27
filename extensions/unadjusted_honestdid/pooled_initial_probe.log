@@ -1,0 +1,28 @@
+  Mbar zero_accepted elapsed_seconds expected_point_grid_open_warning_count
+1    0             0        8.475359                                      0
+  other_warning_count
+1                   0
+  Mbar zero_accepted elapsed_seconds expected_point_grid_open_warning_count
+1 0.05             0        8.738841                                      0
+  other_warning_count
+1                   0
+  Mbar zero_accepted elapsed_seconds expected_point_grid_open_warning_count
+1 0.07             0        9.619594                                      0
+  other_warning_count
+1                   0
+   Mbar zero_accepted elapsed_seconds expected_point_grid_open_warning_count
+1 0.075             0        9.077426                                      0
+  other_warning_count
+1                   0
+  Mbar zero_accepted elapsed_seconds expected_point_grid_open_warning_count
+1 0.08             1        8.946272                                      1
+  other_warning_count
+1                   0
+  Mbar zero_accepted elapsed_seconds expected_point_grid_open_warning_count
+1 0.09             1           8.702                                      1
+  other_warning_count
+1                   0
+  Mbar zero_accepted elapsed_seconds expected_point_grid_open_warning_count
+1  0.1             1        7.743066                                      1
+  other_warning_count
+1                   0

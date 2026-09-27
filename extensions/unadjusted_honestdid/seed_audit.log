@@ -1,0 +1,8 @@
+Tracing function ".compute_least_favorable_cv" in package
+"namespace:HonestDiD"
+[1] ".compute_least_favorable_cv"
+Untracing function ".compute_least_favorable_cv" in package
+"namespace:HonestDiD"
+       model effective_internal_seed simulations
+1   adjusted                       0        1000
+2 unadjusted                       0        1000
