@@ -1,0 +1,174 @@
+{
+  "input_name": "DB1B_2005_2010 copy.csv",
+  "sha256": "68822d60114c61af9f6ce8d9084aa20276f0d5b1b64a9a80b0e372929f1d19cb",
+  "bytes": 200700593,
+  "raw_rows": 4175354,
+  "columns": [
+    "cr1",
+    "cr2",
+    "yr",
+    "qtr",
+    "cop",
+    "ap1",
+    "ap2",
+    "pax",
+    "nsdst",
+    "avprc",
+    "avdst"
+  ],
+  "dtypes": {
+    "cr1": "object",
+    "cr2": "object",
+    "yr": "int64",
+    "qtr": "int64",
+    "cop": "int64",
+    "ap1": "object",
+    "ap2": "object",
+    "pax": "int64",
+    "nsdst": "int64",
+    "avprc": "float64",
+    "avdst": "float64"
+  },
+  "missing": {
+    "cr1": 22,
+    "cr2": 252732,
+    "yr": 0,
+    "qtr": 0,
+    "cop": 0,
+    "ap1": 0,
+    "ap2": 0,
+    "pax": 0,
+    "nsdst": 0,
+    "avprc": 0,
+    "avdst": 0
+  },
+  "exact_duplicates": 0,
+  "natural_key_duplicates": 0,
+  "natural_key": [
+    "cr1",
+    "cr2",
+    "yr",
+    "qtr",
+    "cop",
+    "ap1",
+    "ap2"
+  ],
+  "all_pairs_lexically_ordered": true,
+  "same_endpoint_rows": 4,
+  "zero_distance_rows": 42308,
+  "cop_counts": {
+    "0": 252712,
+    "1": 3922642
+  },
+  "numeric": {
+    "yr": {
+      "count": 4175354.0,
+      "mean": 2007.5629826836239,
+      "std": 1.7085319673204176,
+      "min": 2005.0,
+      "25%": 2006.0,
+      "50%": 2008.0,
+      "75%": 2009.0,
+      "max": 2010.0
+    },
+    "qtr": {
+      "count": 4175354.0,
+      "mean": 2.5237843306220262,
+      "std": 1.1054069818505403,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 4.0
+    },
+    "cop": {
+      "count": 4175354.0,
+      "mean": 0.9394753115544215,
+      "std": 0.23845641981817522,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "pax": {
+      "count": 4175354.0,
+      "mean": 54.93772312479373,
+      "std": 453.83907689678455,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 4.0,
+      "75%": 14.0,
+      "max": 31577.0
+    },
+    "nsdst": {
+      "count": 4175354.0,
+      "mean": 1091.7621818413481,
+      "std": 726.8896047394683,
+      "min": 0.0,
+      "25%": 592.0,
+      "50%": 902.0,
+      "75%": 1407.0,
+      "max": 5156.0
+    },
+    "avprc": {
+      "count": 4175354.0,
+      "mean": 238.74557654590905,
+      "std": 114.43386243735499,
+      "min": 21.0,
+      "25%": 166.08709335327126,
+      "50%": 213.7826156616215,
+      "75%": 280.5,
+      "max": 3354.0
+    },
+    "avdst": {
+      "count": 4175354.0,
+      "mean": 1273.7532466283228,
+      "std": 765.4963614964227,
+      "min": 0.0,
+      "25%": 744.0,
+      "50%": 1080.0,
+      "75%": 1616.0,
+      "max": 7412.0
+    }
+  },
+  "nunique": {
+    "cr1": 125,
+    "cr2": 109,
+    "yr": 6,
+    "qtr": 4,
+    "cop": 2,
+    "ap1": 489,
+    "ap2": 514,
+    "pax": 9735,
+    "nsdst": 3645,
+    "avprc": 460576,
+    "avdst": 340138
+  },
+  "carrier_missing_by_cop": {
+    "false": {
+      "0": 0,
+      "1": 3922622
+    },
+    "true": {
+      "0": 252712,
+      "1": 20
+    }
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  },
+  "distance_audit": {
+    "within_route_varying_distance_routes": 0,
+    "main_zero_distance_routes": [
+      "SJU-STT"
+    ],
+    "main_zero_distance_rows": 24,
+    "main_zero_distance_rows_2007": 4
+  }
+}

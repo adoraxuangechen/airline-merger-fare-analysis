@@ -1,0 +1,13 @@
+listed_route,observed_raw,in_original_regression
+ATL-MEM,True,True
+DTW-MEM,True,True
+DTW-MSP,True,True
+DTW-PHX,True,True
+DTW-SEA,True,True
+DTW-SLC,True,True
+MEM-MSP,True,True
+MEM-SLC,True,True
+MSP-PHX,True,True
+MSP-SEA,True,True
+MSP-SLC,True,True
+SEA-SLC,True,True
