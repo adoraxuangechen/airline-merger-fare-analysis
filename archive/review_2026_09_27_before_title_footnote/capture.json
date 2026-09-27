@@ -1,0 +1,41 @@
+{
+  "captured_utc": "2026-09-27T20:34:05.686663+00:00",
+  "reason": "Local 9-page main and 14-page supplement after raw-fare and unadjusted-breakdown additions, before requested title-footnote and citation-format edits; no public release implied.",
+  "files": [
+    {
+      "source": "revision_2026_09_27/review_additional_checks/writing_sample_v2.pdf",
+      "archive": "archive/review_2026_09_27_before_title_footnote/writing_sample_v2.pdf",
+      "sha256": "3b319471ee4a52322460f75c8733aed5d5b89f8473dc1427d23b5766de4e5df5"
+    },
+    {
+      "source": "revision_2026_09_27/review_additional_checks/technical_supplement_v2.pdf",
+      "archive": "archive/review_2026_09_27_before_title_footnote/technical_supplement_v2.pdf",
+      "sha256": "4b0567550b59b792b951257ef8e3d1f63c3cb7833f3274e9ef39af8091a5e77b"
+    },
+    {
+      "source": "revision_2026_09_27/review_additional_checks/writing_sample_v2.md",
+      "archive": "archive/review_2026_09_27_before_title_footnote/writing_sample_v2.md",
+      "sha256": "9f48af03032a20aab14cf0c080d0379ddf7fb7c15a84ce5ad331205e252bfa6b"
+    },
+    {
+      "source": "revision_2026_09_27/review_additional_checks/technical_supplement_v2.md",
+      "archive": "archive/review_2026_09_27_before_title_footnote/technical_supplement_v2.md",
+      "sha256": "df34492edb8ff80cd7cb976da7fcd73433eb809c42bb1cd9a644d7685736f7e2"
+    },
+    {
+      "source": "documents/writing_sample_v2.md",
+      "archive": "archive/review_2026_09_27_before_title_footnote/documents/writing_sample_v2.md",
+      "sha256": "d5b8d60423d300e354c4b203237e5c6fcb709939922893e878efc6681edcd534"
+    },
+    {
+      "source": "documents/technical_supplement_v2.md",
+      "archive": "archive/review_2026_09_27_before_title_footnote/documents/technical_supplement_v2.md",
+      "sha256": "d1f5ee2eb8fc6b5c364c7e6e626828a28360fb836e47a24885da61962f3b9bc2"
+    },
+    {
+      "source": "documents/build_reference_style.py",
+      "archive": "archive/review_2026_09_27_before_title_footnote/documents/build_reference_style.py",
+      "sha256": "f4d368e4dfc4e929422b37bec1027d138cfa2ead187f278dae2e0ffe7e93c845"
+    }
+  ]
+}
