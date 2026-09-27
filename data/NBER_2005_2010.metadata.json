@@ -1,0 +1,15 @@
+{
+  "source_url": "https://data.nber.org/dot-db1a/mktdata79q1to16q3.zip",
+  "source_sha256": "75b2fe06890bf54f3466824e0309e3d52a74c3dfc3b22f940000face130ecfa9",
+  "archive_bytes": 211893337,
+  "extracted_file": "NBER_2005_2010.csv.gz",
+  "extracted_sha256": "d1a62471152eeb92ad54215b5201f091caea8dfc7f58b3fb55f07d77d6f38d46",
+  "rows": 4175354,
+  "years": [
+    2005,
+    2010
+  ],
+  "unit": "Borenstein operating-carrier-set / unordered airport-pair / quarter / coupon-category aggregate",
+  "literal_NA_carrier_code_preserved": true,
+  "raw_BTS_tickets": false
+}

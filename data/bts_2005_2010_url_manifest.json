@@ -1,0 +1,654 @@
+{
+  "retrieved_utc": "2026-09-27T18:33:48.830881+00:00",
+  "directory": "https://transtats.bts.gov/PREZIP/",
+  "entries": [
+    {
+      "table": "Market",
+      "year": 2005,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2005_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2005_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 74496017
+    },
+    {
+      "table": "Market",
+      "year": 2005,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2005_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2005_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 84400472
+    },
+    {
+      "table": "Market",
+      "year": 2005,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2005_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2005_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 83588434
+    },
+    {
+      "table": "Market",
+      "year": 2005,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2005_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2005_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 81851972
+    },
+    {
+      "table": "Market",
+      "year": 2006,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2006_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2006_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 76009623
+    },
+    {
+      "table": "Market",
+      "year": 2006,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2006_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2006_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 87290915
+    },
+    {
+      "table": "Market",
+      "year": 2006,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2006_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2006_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 83791392
+    },
+    {
+      "table": "Market",
+      "year": 2006,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2006_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2006_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 82879942
+    },
+    {
+      "table": "Market",
+      "year": 2007,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2007_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2007_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 77400513
+    },
+    {
+      "table": "Market",
+      "year": 2007,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2007_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2007_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 86973474
+    },
+    {
+      "table": "Market",
+      "year": 2007,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2007_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2007_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 85758507
+    },
+    {
+      "table": "Market",
+      "year": 2007,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2007_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2007_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 84889247
+    },
+    {
+      "table": "Market",
+      "year": 2008,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2008_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2008_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 77647955
+    },
+    {
+      "table": "Market",
+      "year": 2008,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2008_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2008_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 92300435
+    },
+    {
+      "table": "Market",
+      "year": 2008,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2008_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2008_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 85030868
+    },
+    {
+      "table": "Market",
+      "year": 2008,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2008_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2008_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 80872048
+    },
+    {
+      "table": "Market",
+      "year": 2009,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2009_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2009_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 71817293
+    },
+    {
+      "table": "Market",
+      "year": 2009,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2009_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2009_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 85403256
+    },
+    {
+      "table": "Market",
+      "year": 2009,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2009_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2009_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 87013576
+    },
+    {
+      "table": "Market",
+      "year": 2009,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2009_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2009_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 86207464
+    },
+    {
+      "table": "Market",
+      "year": 2010,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2010_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 78538289
+    },
+    {
+      "table": "Market",
+      "year": 2010,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2010_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 91865360
+    },
+    {
+      "table": "Market",
+      "year": 2010,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2010_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 91136157
+    },
+    {
+      "table": "Market",
+      "year": 2010,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BMarket_2010_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BMarket_2010_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 90822893
+    },
+    {
+      "table": "Coupon",
+      "year": 2005,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2005_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2005_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 69071885
+    },
+    {
+      "table": "Coupon",
+      "year": 2005,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2005_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2005_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 78106485
+    },
+    {
+      "table": "Coupon",
+      "year": 2005,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2005_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2005_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 77339986
+    },
+    {
+      "table": "Coupon",
+      "year": 2005,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2005_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2005_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 75101121
+    },
+    {
+      "table": "Coupon",
+      "year": 2006,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2006_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2006_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 69787073
+    },
+    {
+      "table": "Coupon",
+      "year": 2006,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2006_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2006_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 80325813
+    },
+    {
+      "table": "Coupon",
+      "year": 2006,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2006_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2006_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 77754033
+    },
+    {
+      "table": "Coupon",
+      "year": 2006,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2006_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2006_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 76797560
+    },
+    {
+      "table": "Coupon",
+      "year": 2007,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2007_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2007_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 71465546
+    },
+    {
+      "table": "Coupon",
+      "year": 2007,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2007_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2007_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 80526805
+    },
+    {
+      "table": "Coupon",
+      "year": 2007,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2007_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2007_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 79548061
+    },
+    {
+      "table": "Coupon",
+      "year": 2007,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2007_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2007_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 77896576
+    },
+    {
+      "table": "Coupon",
+      "year": 2008,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2008_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2008_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 70618059
+    },
+    {
+      "table": "Coupon",
+      "year": 2008,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2008_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2008_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 83736354
+    },
+    {
+      "table": "Coupon",
+      "year": 2008,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2008_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2008_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 78346054
+    },
+    {
+      "table": "Coupon",
+      "year": 2008,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2008_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2008_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 74132106
+    },
+    {
+      "table": "Coupon",
+      "year": 2009,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2009_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2009_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 66338889
+    },
+    {
+      "table": "Coupon",
+      "year": 2009,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2009_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2009_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 79045887
+    },
+    {
+      "table": "Coupon",
+      "year": 2009,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2009_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2009_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 80079916
+    },
+    {
+      "table": "Coupon",
+      "year": 2009,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2009_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2009_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 77951606
+    },
+    {
+      "table": "Coupon",
+      "year": 2010,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2010_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2010_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 71148712
+    },
+    {
+      "table": "Coupon",
+      "year": 2010,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2010_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2010_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 83184745
+    },
+    {
+      "table": "Coupon",
+      "year": 2010,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2010_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2010_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 83087560
+    },
+    {
+      "table": "Coupon",
+      "year": 2010,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BCoupon_2010_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BCoupon_2010_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 81726966
+    },
+    {
+      "table": "Ticket",
+      "year": 2005,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2005_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2005_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 30479359
+    },
+    {
+      "table": "Ticket",
+      "year": 2005,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2005_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2005_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 34723463
+    },
+    {
+      "table": "Ticket",
+      "year": 2005,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2005_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2005_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 34405106
+    },
+    {
+      "table": "Ticket",
+      "year": 2005,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2005_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2005_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 33568150
+    },
+    {
+      "table": "Ticket",
+      "year": 2006,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2006_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2006_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 31774672
+    },
+    {
+      "table": "Ticket",
+      "year": 2006,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2006_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2006_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 36368454
+    },
+    {
+      "table": "Ticket",
+      "year": 2006,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2006_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2006_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 34607534
+    },
+    {
+      "table": "Ticket",
+      "year": 2006,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2006_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2006_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 34011252
+    },
+    {
+      "table": "Ticket",
+      "year": 2007,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2007_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2007_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 32223826
+    },
+    {
+      "table": "Ticket",
+      "year": 2007,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2007_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2007_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 36098698
+    },
+    {
+      "table": "Ticket",
+      "year": 2007,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2007_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2007_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 35547634
+    },
+    {
+      "table": "Ticket",
+      "year": 2007,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2007_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2007_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 35414266
+    },
+    {
+      "table": "Ticket",
+      "year": 2008,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2008_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2008_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 33470352
+    },
+    {
+      "table": "Ticket",
+      "year": 2008,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2008_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2008_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 39896737
+    },
+    {
+      "table": "Ticket",
+      "year": 2008,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2008_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2008_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 35706152
+    },
+    {
+      "table": "Ticket",
+      "year": 2008,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2008_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2008_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 33753840
+    },
+    {
+      "table": "Ticket",
+      "year": 2009,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2009_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2009_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 29783311
+    },
+    {
+      "table": "Ticket",
+      "year": 2009,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2009_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2009_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 35545889
+    },
+    {
+      "table": "Ticket",
+      "year": 2009,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2009_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2009_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 36445488
+    },
+    {
+      "table": "Ticket",
+      "year": 2009,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2009_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2009_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 36800193
+    },
+    {
+      "table": "Ticket",
+      "year": 2010,
+      "quarter": 1,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2010_1.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2010_1.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 33595175
+    },
+    {
+      "table": "Ticket",
+      "year": 2010,
+      "quarter": 2,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2010_2.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2010_2.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 39336565
+    },
+    {
+      "table": "Ticket",
+      "year": 2010,
+      "quarter": 3,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2010_3.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2010_3.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 38556808
+    },
+    {
+      "table": "Ticket",
+      "year": 2010,
+      "quarter": 4,
+      "filename": "Origin_and_Destination_Survey_DB1BTicket_2010_4.zip",
+      "url": "https://transtats.bts.gov/PREZIP/Origin_and_Destination_Survey_DB1BTicket_2010_4.zip",
+      "listed_in_official_directory": true,
+      "directory_bytes": 38802694
+    }
+  ]
+}
