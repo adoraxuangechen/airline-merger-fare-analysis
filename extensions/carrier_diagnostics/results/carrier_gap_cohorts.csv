@@ -1,0 +1,5 @@
+model,original_overlap_routes,baseline_paired_routes,retained_routes,possible_cells_in_current_route_cohort,paired_positive_cells,missing_paired_cells,minimum_quarters_per_retained_route
+all_products_baseline_paired,156,144,144,3456,3438,18,20
+all_products_balanced_24q,156,144,133,3192,3192,0,24
+two_coupon_only_baseline_paired,156,142,142,3408,3385,23,20
+two_coupon_only_balanced_24q,156,142,129,3096,3096,0,24

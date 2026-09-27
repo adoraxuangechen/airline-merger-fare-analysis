@@ -1,0 +1,46 @@
+[
+  {
+    "test": "Carrier groups exactly partition full route-quarter records",
+    "route_quarters": 6235,
+    "max_passenger_difference": 0.0,
+    "max_revenue_difference": 4.656612873077393e-10
+  },
+  {
+    "test": "Independent row-level weighted-mean check",
+    "route": "ABQ-AUS",
+    "t": 1,
+    "carrier_group": "DL_NW_single",
+    "raw_rows": 1,
+    "pax": 2.0,
+    "manual_fare": 227.5,
+    "stored_fare": 227.5,
+    "abs_difference": 0.0
+  },
+  {
+    "test": "Independent row-level weighted-mean check",
+    "route": "DFW-LIH",
+    "t": 5,
+    "carrier_group": "Rival_single",
+    "raw_rows": 2,
+    "pax": 92.0,
+    "manual_fare": 441.0978128184442,
+    "stored_fare": 441.0978128184442,
+    "abs_difference": 0.0
+  },
+  {
+    "test": "Independent row-level weighted-mean check",
+    "route": "STL-VPS",
+    "t": 24,
+    "carrier_group": "Rival_single",
+    "raw_rows": 5,
+    "pax": 49.0,
+    "manual_fare": 147.02040847466915,
+    "stored_fare": 147.02040847466915,
+    "abs_difference": 0.0
+  },
+  {
+    "test": "WN baseline totals independently recomputed from raw records",
+    "routes": 260,
+    "exact_agreement": true
+  }
+]

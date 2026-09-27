@@ -1,0 +1,10 @@
+{
+  "source_file": "NBER_2005_2010.csv.gz",
+  "source_sha256": "d1a62471152eeb92ad54215b5201f091caea8dfc7f58b3fb55f07d77d6f38d46",
+  "protocol": "../protocol.md",
+  "baseline_reference": "2007Q4",
+  "fixed_original_overlap_routes": 156,
+  "fixed_original_legacy_control_routes": 104,
+  "group_rule": "cop == 0 or cr1 == cr2 identifies single carrier; DL/NW only when cr1 in DL,NW; all mixed itineraries separate",
+  "warning": "Descriptive operating-carrier product averages; no causal strategic response or fare-setting carrier assignment."
+}

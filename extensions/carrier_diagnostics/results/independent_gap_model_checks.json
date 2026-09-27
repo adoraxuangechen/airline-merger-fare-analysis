@@ -1,0 +1,40 @@
+[
+  {
+    "model": "all_products_baseline_paired",
+    "check": "Independent full-route-dummy statsmodels regression",
+    "max_beta_difference": 1.0852430065710905e-14,
+    "max_covariance_difference": 7.144892316679474e-17
+  },
+  {
+    "model": "all_products_balanced_24q",
+    "check": "Independent full-route-dummy statsmodels regression",
+    "max_beta_difference": 2.1996293675385914e-14,
+    "max_covariance_difference": 2.0296264668928643e-16
+  },
+  {
+    "model": "all_products_balanced_24q",
+    "check": "Direct balanced route-quarter mean contrast",
+    "manual_log_contrast": 0.009691693536367618,
+    "stored_log_contrast": 0.0096916935363641,
+    "abs_difference": 3.5180192092809648e-15
+  },
+  {
+    "model": "two_coupon_only_baseline_paired",
+    "check": "Independent full-route-dummy statsmodels regression",
+    "max_beta_difference": 1.3350431871117507e-14,
+    "max_covariance_difference": 1.1476279995759064e-16
+  },
+  {
+    "model": "two_coupon_only_balanced_24q",
+    "check": "Independent full-route-dummy statsmodels regression",
+    "max_beta_difference": 2.1788126858268697e-14,
+    "max_covariance_difference": 1.5845614750875647e-16
+  },
+  {
+    "model": "two_coupon_only_balanced_24q",
+    "check": "Direct balanced route-quarter mean contrast",
+    "manual_log_contrast": 0.007591651984195622,
+    "stored_log_contrast": 0.0075916519841909,
+    "abs_difference": 4.721917301608869e-15
+  }
+]
