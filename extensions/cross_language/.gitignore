@@ -1,0 +1,4 @@
+*.log
+*.private.txt
+*.smcl
+__pycache__/
