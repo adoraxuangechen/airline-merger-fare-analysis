@@ -1,0 +1,142 @@
+{
+  "specification": {
+    "source_panel_sha256": "2eb9ccbfb13d7d16c8b12f901341c9cbf11bd2f5a88f6a606bef84284f3ce9fe",
+    "n": 6235,
+    "routes": 260,
+    "nuisance_rank": 161,
+    "df_resid": 5791,
+    "cr1_factor": 1.0806543771489376,
+    "numPrePeriods": 11,
+    "numPostPeriods": 12,
+    "reference": "2007Q4",
+    "post_window": "2008Q1\u20132010Q4",
+    "target_window": "2008Q4\u20132010Q4",
+    "l_vec": [
+      0.0,
+      0.0,
+      0.0,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.1111111111111111,
+      0.1111111111111111
+    ],
+    "target_b": -0.0373886950409745,
+    "target_se": 0.018317135897932664,
+    "normal95_log": [
+      -0.07328962170084827,
+      -0.0014877683811007347
+    ],
+    "t95_log": [
+      -0.07345816814231954,
+      -0.0013192219396294738
+    ],
+    "eigenvalue_min": 2.56030348992116e-05,
+    "eigenvalue_max": 0.004326590375677138,
+    "condition_number": 168.9874029664494,
+    "pretest_F": 4.324397649993984,
+    "pretest_p": 6.145302452353018e-06,
+    "max_beta_error_vs_saved": 6.522560269672795e-16,
+    "max_se_error_vs_saved": 1.6653345369377348e-16
+  },
+  "official_package_version": "0.2.8",
+  "official_git_commit": "6813f02ed38f0b63bdca6915604b2eac90491303",
+  "seed": 20260927,
+  "method": "C-LF",
+  "alpha": 0.05,
+  "rows": [
+    {
+      "Mbar": 0,
+      "accepted_lower": -0.07245,
+      "accepted_upper": -0.00225,
+      "lower_adjacent_reject": -0.0726,
+      "upper_adjacent_reject": -0.0021,
+      "lower_percent": -6.988774888978696,
+      "upper_percent": -0.2247470647370109,
+      "grid_lower": -0.12,
+      "grid_upper": 0.03,
+      "grid_points": 1001,
+      "grid_step": 0.00015000000000010057,
+      "number_of_components": 1,
+      "endpoint_truncation": false,
+      "zero_in_grid_acceptance": false,
+      "components": [
+        [
+          -0.07245,
+          -0.00225
+        ]
+      ]
+    },
+    {
+      "Mbar": 0.5,
+      "accepted_lower": -0.42085,
+      "accepted_upper": 0.3509,
+      "lower_adjacent_reject": -0.4219,
+      "upper_adjacent_reject": 0.35195,
+      "lower_percent": -34.35114326908595,
+      "upper_percent": 42.03452842818039,
+      "grid_lower": -0.55,
+      "grid_upper": 0.5,
+      "grid_points": 1001,
+      "grid_step": 0.0010500000000001064,
+      "number_of_components": 1,
+      "endpoint_truncation": false,
+      "zero_in_grid_acceptance": true,
+      "components": [
+        [
+          -0.42085,
+          0.3509
+        ]
+      ]
+    },
+    {
+      "Mbar": 1,
+      "accepted_lower": -0.8,
+      "accepted_upper": 0.73,
+      "lower_adjacent_reject": -0.805,
+      "upper_adjacent_reject": 0.735,
+      "lower_percent": -55.067103588277845,
+      "upper_percent": 107.50806076741226,
+      "grid_lower": -1.1,
+      "grid_upper": 1.05,
+      "grid_points": 431,
+      "grid_step": 0.005000000000000213,
+      "number_of_components": 1,
+      "endpoint_truncation": false,
+      "zero_in_grid_acceptance": true,
+      "components": [
+        [
+          -0.8,
+          0.73
+        ]
+      ]
+    },
+    {
+      "Mbar": 2,
+      "accepted_lower": -1.555,
+      "accepted_upper": 1.485,
+      "lower_adjacent_reject": -1.56,
+      "upper_adjacent_reject": 1.49,
+      "lower_percent": -78.88106173590288,
+      "upper_percent": 341.4965412778578,
+      "grid_lower": -2.2,
+      "grid_upper": 2.15,
+      "grid_points": 871,
+      "grid_step": 0.005000000000001004,
+      "number_of_components": 1,
+      "endpoint_truncation": false,
+      "zero_in_grid_acceptance": true,
+      "components": [
+        [
+          -1.555,
+          1.485
+        ]
+      ]
+    }
+  ],
+  "interpretation": "Finite-grid approximations to official confidence sets. Endpoint crossings bracketed by adjacent rejected grid points. No full-grid endpoint was accepted; all four sampled acceptance sets have one connected component. Sampling grid cannot mathematically exclude features narrower than its spacing. No estimate was selected using these diagnostics."
+}

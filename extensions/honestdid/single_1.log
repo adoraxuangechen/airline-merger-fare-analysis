@@ -1,0 +1,8 @@
+Tracing function "computeConditionalCS_DeltaRM" in package
+"namespace:HonestDiD"
+[1] "computeConditionalCS_DeltaRM"
+# A tibble: 1 × 5
+     lb    ub method Delta    Mbar
+  <dbl> <dbl> <chr>  <chr>   <dbl>
+1  -0.8  0.73 C-LF   DeltaRM     1
+Time difference of 15.91706 secs
