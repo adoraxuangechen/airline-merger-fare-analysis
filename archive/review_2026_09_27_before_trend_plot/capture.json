@@ -1,0 +1,41 @@
+{
+  "captured_utc": "2026-09-27T20:12:49.670944+00:00",
+  "reason": "Preserve the delivered 8-page main paper and 12-page supplement before raw-fare plot, unadjusted HonestDiD breakdown, and comparison-code clarification.",
+  "files": [
+    {
+      "source": "papers/writing_sample_v2.pdf",
+      "archive": "archive/review_2026_09_27_before_trend_plot/papers/writing_sample_v2.pdf",
+      "sha256": "04b323ed0979656d125c8744174c2b4ba579d6b7a295427492098e8b6795a719"
+    },
+    {
+      "source": "papers/technical_supplement_v2.pdf",
+      "archive": "archive/review_2026_09_27_before_trend_plot/papers/technical_supplement_v2.pdf",
+      "sha256": "c94ae41a24633258554174910a449c03112434fedfe4f5783a0ff6e86957529b"
+    },
+    {
+      "source": "papers/writing_sample_v2.md",
+      "archive": "archive/review_2026_09_27_before_trend_plot/papers/writing_sample_v2.md",
+      "sha256": "754b2ef92695dfee955bee5deb0c678b2f4ff127e85037bad2dc4b233224bea5"
+    },
+    {
+      "source": "papers/technical_supplement_v2.md",
+      "archive": "archive/review_2026_09_27_before_trend_plot/papers/technical_supplement_v2.md",
+      "sha256": "cde3d7874755a341ab772cf2c59d0cc4ca394feeddc0be2dce49931a5591f3c7"
+    },
+    {
+      "source": "documents/writing_sample_v2.md",
+      "archive": "archive/review_2026_09_27_before_trend_plot/documents/writing_sample_v2.md",
+      "sha256": "55e9d651a191f3517219016e415a7c22b39f9b80c4655d430b874df79ee9a267"
+    },
+    {
+      "source": "documents/technical_supplement_v2.md",
+      "archive": "archive/review_2026_09_27_before_trend_plot/documents/technical_supplement_v2.md",
+      "sha256": "75e09560496dd33e155baaf091053d6f01cbffc75170db6ad7608528a5ecc234"
+    },
+    {
+      "source": "documents/build_reference_style.py",
+      "archive": "archive/review_2026_09_27_before_trend_plot/documents/build_reference_style.py",
+      "sha256": "22bc8cccef9df684d8e7dd0caafeb07c7d38131c11d447e27f5abb959398952c"
+    }
+  ]
+}
