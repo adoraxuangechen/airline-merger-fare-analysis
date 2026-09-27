@@ -1,0 +1,3 @@
+Stata version: 19.5
+Flavor: IC
+OS: Unix

@@ -1,0 +1,1 @@
+Successful completion: all six specified regressions executed in installed Stata.

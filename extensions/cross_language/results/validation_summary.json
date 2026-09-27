@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "regressions_per_language": 6,
+  "languages_compared": [
+    "Python (existing estimates)",
+    "R (independent explicit-dummy OLS)",
+    "Stata (independent regress with clustered VCE)"
+  ],
+  "max_abs_beta_difference": 2.1370405445253482e-13,
+  "max_abs_se_difference": 6.956241138666996e-16,
+  "all_sample_counts_and_design_ranks_equal": true,
+  "tolerance": {
+    "coefficient_absolute": 1e-09,
+    "standard_error_absolute": 1e-09
+  },
+  "stata_version_information": [
+    "Stata version: 19.5",
+    "Flavor: IC",
+    "OS: Unix"
+  ],
+  "r_version": "R version 4.5.3 (2026-03-11)",
+  "input_sha256": {
+    "panel_legacy_valid.csv": "2eb9ccbfb13d7d16c8b12f901341c9cbf11bd2f5a88f6a606bef84284f3ce9fe",
+    "panel_all_unexposed.csv": "c8cde6933cd1e867ca7e15469d5046bc26133fb9398e1f0b2494c01a35f05e2b",
+    "route_features.csv": "17ccaf7a4fae32ba7bd89883e397e076d818c334e230462c2f5fbf7285641ab6"
+  },
+  "benchmark_sha256": {
+    "extended_results.json": "f3fe1661dad1c168724202763f48c890b6da9a09d873b3ba3ae29a868765bfb4",
+    "wn_models.json": "aac7b82d46f22a83a1a6ffb825be4c54c5accb2250514f5764d6b650600eb763"
+  },
+  "scope": "Regression replication on the same already constructed panels. Does not independently recreate raw-data cleaning or establish causal identification."
+}

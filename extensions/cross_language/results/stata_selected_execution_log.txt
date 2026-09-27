@@ -1,0 +1,6 @@
+VALIDATED_MODEL same_sample_unadjusted N=6235 routes=260 beta=   -.0574452476521585 se=   .01897288239914433
+VALIDATED_MODEL distance_quarter N=6235 routes=260 beta=  -.03753651943458419 se=   .01878363635636076
+VALIDATED_MODEL distance_and_composition_quarter N=6235 routes=260 beta=  -.02484375584229708 se=    .0183950367330755
+VALIDATED_MODEL legacy_adjusted_wn_present N=6235 routes=260 beta=  -.02735255002261967 se=   .01755045501159886
+VALIDATED_MODEL all_controls_adjusted N=14430 routes=616 beta=    -.045305618008947 se=   .01232935418335666
+VALIDATED_MODEL expanded_adjusted_wn_present N=14430 routes=616 beta=   -.0258774822141105 se=   .01288407583477723
