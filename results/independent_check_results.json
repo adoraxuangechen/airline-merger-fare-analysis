@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "source": "saved panels and route/carrier features only",
+  "checks": {
+    "legacy": {
+      "N": 6259,
+      "routes": 261,
+      "treated": 156
+    },
+    "legacy_valid": {
+      "N": 6235,
+      "routes": 260,
+      "treated": 156
+    },
+    "legacy_support": {
+      "N": 4032,
+      "routes": 168,
+      "treated": 133
+    },
+    "all_unexposed": {
+      "N": 14430,
+      "routes": 616,
+      "treated": 156
+    },
+    "all_support": {
+      "N": 7774,
+      "routes": 324,
+      "treated": 146
+    },
+    "concentration": {
+      "named_codes_2007": 73,
+      "zero_single_eligible": 19,
+      "minimum_coverage_eligible": 0.0
+    },
+    "support_legacy": {
+      "retained_cells": 5,
+      "retained_routes": 168,
+      "cell_counts": {
+        "0_0": {
+          "controls": 13,
+          "treated": 14
+        },
+        "0_1": {
+          "controls": 4,
+          "treated": 5
+        },
+        "0_2": {
+          "controls": 3,
+          "treated": 0
+        },
+        "0_3": {
+          "controls": 62,
+          "treated": 2
+        },
+        "1_0": {
+          "controls": 7,
+          "treated": 33
+        },
+        "1_1": {
+          "controls": 0,
+          "treated": 4
+        },
+        "1_2": {
+          "controls": 1,
+          "treated": 2
+        },
+        "1_3": {
+          "controls": 2,
+          "treated": 1
+        },
+        "2_0": {
+          "controls": 3,
+          "treated": 21
+        },
+        "2_1": {
+          "controls": 0,
+          "treated": 2
+        },
+        "2_2": {
+          "controls": 0,
+          "treated": 1
+        },
+        "3_0": {
+          "controls": 8,
+          "treated": 60
+        },
+        "3_1": {
+          "controls": 1,
+          "treated": 9
+        },
+        "3_2": {
+          "controls": 0,
+          "treated": 1
+        },
+        "3_3": {
+          "controls": 0,
+          "treated": 1
+        }
+      }
+    },
+    "support_all_unexposed": {
+      "retained_cells": 7,
+      "retained_routes": 324,
+      "cell_counts": {
+        "0_0": {
+          "controls": 57,
+          "treated": 14
+        },
+        "0_1": {
+          "controls": 23,
+          "treated": 5
+        },
+        "0_2": {
+          "controls": 29,
+          "treated": 0
+        },
+        "0_3": {
+          "controls": 203,
+          "treated": 2
+        },
+        "1_0": {
+          "controls": 47,
+          "treated": 33
+        },
+        "1_1": {
+          "controls": 19,
+          "treated": 4
+        },
+        "1_2": {
+          "controls": 13,
+          "treated": 2
+        },
+        "1_3": {
+          "controls": 31,
+          "treated": 1
+        },
+        "2_0": {
+          "controls": 11,
+          "treated": 21
+        },
+        "2_1": {
+          "controls": 2,
+          "treated": 2
+        },
+        "2_2": {
+          "controls": 2,
+          "treated": 1
+        },
+        "3_0": {
+          "controls": 17,
+          "treated": 60
+        },
+        "3_1": {
+          "controls": 4,
+          "treated": 9
+        },
+        "3_2": {
+          "controls": 0,
+          "treated": 1
+        },
+        "3_3": {
+          "controls": 2,
+          "treated": 1
+        }
+      }
+    }
+  },
+  "independent_raw_dummy_estimates": {
+    "published_baseline": {
+      "max_beta_difference": 5.80785419757035e-14,
+      "max_se_difference": 1.2836953722228372e-16,
+      "df_resid": 5974,
+      "N": 6259,
+      "min_target_residual_fraction": 0.5011868742793472
+    },
+    "distance_and_composition_quarter": {
+      "max_beta_difference": 8.483838631612173e-14,
+      "max_se_difference": 7.73686670285656e-16,
+      "df_resid": 5813,
+      "N": 6235,
+      "min_target_residual_fraction": 0.3435939094880352
+    },
+    "common_support_cell_quarter": {
+      "max_beta_difference": 9.329342853803269e-14,
+      "max_se_difference": 2.636779683484747e-16,
+      "df_resid": 3748,
+      "N": 4032,
+      "min_target_residual_fraction": 0.33876840801449926
+    },
+    "event_adjusted": {
+      "max_beta_difference": 7.529740719824929e-13,
+      "max_se_difference": 1.1005085731596864e-14,
+      "df_resid": 5791,
+      "N": 6235,
+      "min_target_residual_fraction": 0.42544615345160025,
+      "pretest_F": 4.324397650004001,
+      "pretest_p": 6.145302452118188e-06
+    },
+    "route_trends": {
+      "max_beta_difference": 1.5751289161869408e-15,
+      "max_se_difference": 1.2836953722228372e-16,
+      "df_resid": 5560,
+      "N": 6235,
+      "min_target_residual_fraction": 0.1868250780295986
+    },
+    "end_2009": {
+      "max_beta_difference": 1.2149656281046362e-13,
+      "max_se_difference": 4.3368086899420177e-16,
+      "df_resid": 4802,
+      "N": 5196,
+      "min_target_residual_fraction": 0.3763891331539792
+    },
+    "exclude_UA_CO": {
+      "max_beta_difference": 1.0894063429134349e-14,
+      "max_se_difference": 1.6237011735142914e-15,
+      "df_resid": 758,
+      "N": 936,
+      "min_target_residual_fraction": 0.4976587118294441
+    }
+  },
+  "analysis_sha256": "1f5dd80b76ae74fd765af34bb65f4053fd43b0da74b23b921fc5d4a7dea47985"
+}

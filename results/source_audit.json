@@ -1,0 +1,23 @@
+{
+  "source_file": "mktdata79q1to16q3.zip",
+  "source_sha256": "75b2fe06890bf54f3466824e0309e3d52a74c3dfc3b22f940000face130ecfa9",
+  "raw_rows": 4175354,
+  "source_kind": "NBER Borenstein aggregate archive, not BTS raw tickets",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1"
+  },
+  "source_carrier_NA_counts": {
+    "cr1": 22,
+    "cr2": 20
+  },
+  "clean_rows": 4175350,
+  "clean_route_quarters": 609396,
+  "carrier_codes": 134,
+  "source_pax": 229384433,
+  "source_revenue": 40288572521.562256,
+  "eligible_routes": 5535,
+  "eligible_routes_without_single_carrier_traffic": 19
+}

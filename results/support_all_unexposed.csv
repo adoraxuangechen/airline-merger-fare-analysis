@@ -1,0 +1,16 @@
+cell,control_routes,treated_routes,retained
+0_0,57,14,True
+0_1,23,5,True
+0_2,29,0,False
+0_3,203,2,False
+1_0,47,33,True
+1_1,19,4,True
+1_2,13,2,False
+1_3,31,1,False
+2_0,11,21,True
+2_1,2,2,False
+2_2,2,1,False
+3_0,17,60,True
+3_1,4,9,True
+3_2,0,1,False
+3_3,2,1,False
