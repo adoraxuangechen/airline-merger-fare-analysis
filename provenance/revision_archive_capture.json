@@ -1,0 +1,107 @@
+{
+  "capture_time_utc": "2026-09-27T19:48:51+00:00",
+  "historical_date_policy": "Capture timestamp is the actual archival time. Historical document dates are not archival or Git commit timestamps.",
+  "files": [
+    {
+      "archive_path": "archive/original_2025_12/Econ_449_final_paper_Adora.pdf",
+      "source_location_at_capture": "/Users/adora/Desktop/Econ 449 /Econ_449_final_paper__Adora.pdf",
+      "sha256": "fdfefdd2257e8a1d501381f64ecf83c755d2e20f1a9cf4340ee85d36fab61cff",
+      "bytes": 459784,
+      "role": "Original course paper; historical, not current analysis",
+      "pdf_attributes": {
+        "pages": 27,
+        "creation_date_as_recorded": "D:20251204185230Z",
+        "modification_date_as_recorded": "D:20251204185230Z",
+        "metadata_title_as_recorded": "",
+        "metadata_author_as_recorded": "",
+        "first_page_text_excerpt": "Airline Consolidation and Tacit Collusion Incentives:\nAn Empirical Study of the Delta–Northwest Merger\nXuange (Adora) Chen\nThe Pennsylvania State University\nECON 449: Economics of Collusion\nDecember 2025\n1"
+      }
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/writing_sample_v2.pdf",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/reference_style_review/writing_sample_v2.pdf",
+      "sha256": "50c87a3c4b4973fc05da620a719a1779c71757b4b06961279c9731a8c1ee6026",
+      "bytes": 297200,
+      "role": "Pre-editorial review artifact captured September 27, 2026",
+      "pdf_attributes": {
+        "pages": 8,
+        "creation_date_as_recorded": "D:20260927154658-04'00'",
+        "modification_date_as_recorded": "D:20260927154658-04'00'",
+        "metadata_title_as_recorded": "Fare Changes After the Delta-Northwest Merger: Market Composition and Competitive Exposure",
+        "metadata_author_as_recorded": "Xuange (Adora) Chen",
+        "first_page_text_excerpt": "Fare Changes After the Delta-Northwest Merger:\n Market Composition and Competitive Exposure\n Xuange (Adora) Chen\n The Pennsylvania State University\n xmc5171@psu.edu\n Revised September 27, 2026\n Abstract\n I examine fare changes around the 2008 Delta-Northwest merger using Borenstein's market data for\n2005-2010. The primary comparison holds 260 airport pairs fixed and allows baseline distance and\nitinerary composition to have different quarterly fare paths. Adjustment reduces the estimated relative\ndecline from -5.58% to -2.45%, with an interval that includes zero. Expanding the comparison\npopulation initially yields a larger decline, but allow"
+      }
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/writing_sample_v2.md",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/reference_style_review/writing_sample_v2.md",
+      "sha256": "6ddc6559d5f7118de41f3f7784bacada31ae7375dfb4e9ade323e6982c4754db",
+      "bytes": 24154,
+      "role": "Pre-editorial review artifact captured September 27, 2026"
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/technical_supplement_v2.pdf",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/reference_style_review/technical_supplement_v2.pdf",
+      "sha256": "edbdb9e2b34e79e3ca8abada54be21b597c8b88df9d15bf7a20db1603047a149",
+      "bytes": 273402,
+      "role": "Pre-editorial review artifact captured September 27, 2026",
+      "pdf_attributes": {
+        "pages": 12,
+        "creation_date_as_recorded": "D:20260927154658-04'00'",
+        "modification_date_as_recorded": "D:20260927154658-04'00'",
+        "metadata_title_as_recorded": "Delta-Northwest Merger: Technical Supplement",
+        "metadata_author_as_recorded": "Xuange (Adora) Chen",
+        "first_page_text_excerpt": "Delta-Northwest Fare Analysis\nTechnical Supplement: Measurement, Estimation, and Replication\n Xuange (Adora) Chen\n The Pennsylvania State University\n xmc5171@psu.edu\n Revised September 27, 2026\nA Source data and units\nThe primary input is the NBER archive mktdata79q1to16q3.zip, containing Borenstein's broadened-market\nStata file. This revision selects 2005-2010 directly from that archive. The original user-supplied CSV and\nprevious published outputs are preserved separately. The analysis does not substitute BTS ticket-level\nrecords for this aggregate panel.\nSource SHA256: 75b2fe06890bf54f3466824e0309e3d52a74c3dfc3b22f940000face130ecfa9\n The s"
+      }
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/technical_supplement_v2.md",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/reference_style_review/technical_supplement_v2.md",
+      "sha256": "cde3d7874755a341ab772cf2c59d0cc4ca394feeddc0be2dce49931a5591f3c7",
+      "bytes": 32599,
+      "role": "Pre-editorial review artifact captured September 27, 2026"
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/document_values.json",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/reference_style_review/document_values.json",
+      "sha256": "05da88cab8c88089e64a4f28107707cc86c257ec091e22d8bbb59ae107ea417f",
+      "bytes": 866,
+      "role": "Pre-editorial review artifact captured September 27, 2026"
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/document_templates/writing_sample_v2.md",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/repository/documents/writing_sample_v2.md",
+      "sha256": "6f5ae52796f721538f9c08a890d338d0e7c9720433ca349522af4f44e7b7dca3",
+      "bytes": 23229,
+      "role": "Document source/template at snapshot capture; filenames retained"
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/document_templates/technical_supplement_v2.md",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/repository/documents/technical_supplement_v2.md",
+      "sha256": "75e09560496dd33e155baaf091053d6f01cbffc75170db6ad7608528a5ecc234",
+      "bytes": 26952,
+      "role": "Document source/template at snapshot capture; filenames retained"
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/document_templates/build_reference_style.py",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/repository/documents/build_reference_style.py",
+      "sha256": "2cb975f3b1aeead5650ba648b7aa6f0892d18f73d02d21563652a25d750a8376",
+      "bytes": 17736,
+      "role": "Document source/template at snapshot capture; filenames retained"
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/document_templates/build_revision.py",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/repository/documents/build_revision.py",
+      "sha256": "6a2543491a86c9fae1482e47c36cc87ca526e538b5648463b11b9f8ef0e6c474",
+      "bytes": 17113,
+      "role": "Document source/template at snapshot capture; filenames retained"
+    },
+    {
+      "archive_path": "archive/review_2026_09_27_pre_editorial/document_templates/README.md",
+      "source_location_at_capture": "/Users/adora/.codex/.chatgpt-projects/g-p-699de8642bd8819197521a133bb8bd6e/revision_2026_09_27/repository/documents/README.md",
+      "sha256": "33d72781a27518cfac1987f482de77d637675b8cbc3122484dd5756739b11e5a",
+      "bytes": 1409,
+      "role": "Document source/template at snapshot capture; filenames retained"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "capture_time_utc": "2026-09-27T19:50:26+00:00",
+  "remote_origin": "https://github.com/adoraxuangechen/airline-merger-fare-analysis.git",
+  "base_commit": "de38cd0e173d786c3d5c1edf9f463bb0dd4049f5",
+  "is_shallow_clone": false,
+  "commit_count": 12,
+  "bundle_path": "archive/git_history_2026_09_27/repository_before_revision.bundle",
+  "bundle_sha256": "76f7ca5a79768118e220b428f0d1cdce0d9836fff0841d24f04c86f337b50cef",
+  "bundle_refs": [
+    "de38cd0e173d786c3d5c1edf9f463bb0dd4049f5 refs/heads/main",
+    "de38cd0e173d786c3d5c1edf9f463bb0dd4049f5 refs/remotes/origin/HEAD",
+    "de38cd0e173d786c3d5c1edf9f463bb0dd4049f5 refs/remotes/origin/main",
+    "0900db607a62634bc0e34dc5678d0e9444ea01a5 refs/tags/writing-sample-2026-09",
+    "de38cd0e173d786c3d5c1edf9f463bb0dd4049f5 HEAD"
+  ],
+  "commits": [
+    {
+      "commit": "1073a25b2b007ab8a6b0eab3627326f6f2e5c203",
+      "author_date_recorded_in_git": "2026-09-21T14:54:56-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T14:54:56-04:00",
+      "subject": "Add revised airline merger analysis pipeline"
+    },
+    {
+      "commit": "14fdc838c0e6d17b9053500ba5ab3d8624b3513e",
+      "author_date_recorded_in_git": "2026-09-21T16:14:10-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:14:10-04:00",
+      "subject": "Clarify research findings and analysis replication scope in README"
+    },
+    {
+      "commit": "7dddb57df3c1e79c93fea25e197058c393eac471",
+      "author_date_recorded_in_git": "2026-09-21T16:51:13-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:51:13-04:00",
+      "subject": "Add verified analysis pipeline"
+    },
+    {
+      "commit": "a6bc345563eda17a8e9365e29a639b1d1e8f590e",
+      "author_date_recorded_in_git": "2026-09-21T16:51:56-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:51:56-04:00",
+      "subject": "Document aggregate data provenance"
+    },
+    {
+      "commit": "166b6a1e026da273d6af215244e44badd60a77dc",
+      "author_date_recorded_in_git": "2026-09-21T16:52:34-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:52:34-04:00",
+      "subject": "Publish verified results and event study"
+    },
+    {
+      "commit": "c05464bfd544f98f3a6cc2ac2310e9f6e9d6a007",
+      "author_date_recorded_in_git": "2026-09-21T16:53:13-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:53:13-04:00",
+      "subject": "Add original input metadata and download link"
+    },
+    {
+      "commit": "cb4cdf421c1f7c743453b194eef70c3e08c8ceeb",
+      "author_date_recorded_in_git": "2026-09-21T16:53:46-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:53:46-04:00",
+      "subject": "Add reproducible data download and checksum checks"
+    },
+    {
+      "commit": "292d1b73a2b8e8d87028358146654f8bf94db60e",
+      "author_date_recorded_in_git": "2026-09-21T16:54:21-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:54:21-04:00",
+      "subject": "Add paper sources and reproducible document builder"
+    },
+    {
+      "commit": "3b935f3810549a76a9245e58029c39de352c1e65",
+      "author_date_recorded_in_git": "2026-09-21T16:54:45-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:54:45-04:00",
+      "subject": "Publish writing sample and technical supplement"
+    },
+    {
+      "commit": "0900db607a62634bc0e34dc5678d0e9444ea01a5",
+      "author_date_recorded_in_git": "2026-09-21T16:55:11-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:55:11-04:00",
+      "subject": "Update research overview and replication entrypoints"
+    },
+    {
+      "commit": "30b286f3fa762fcc3b96d9aac48bc5d77109e077",
+      "author_date_recorded_in_git": "2026-09-21T16:57:27-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:57:27-04:00",
+      "subject": "Fix Markdown equation rendering"
+    },
+    {
+      "commit": "de38cd0e173d786c3d5c1edf9f463bb0dd4049f5",
+      "author_date_recorded_in_git": "2026-09-21T16:57:56-04:00",
+      "committer_date_recorded_in_git": "2026-09-21T16:57:56-04:00",
+      "subject": "Fix supplement text equation rendering"
+    }
+  ],
+  "note": "Dates are recorded Git metadata, not independent evidence of drafting dates or authorship. No commit was created or rewritten for this archive. The bundle captures existing committed history only; current uncommitted revisions are separately snapshotted."
+}

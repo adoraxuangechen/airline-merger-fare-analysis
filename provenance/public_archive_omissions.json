@@ -1,0 +1,32 @@
+{
+  "prepared_utc": "2026-09-27T21:01:22.858786+00:00",
+  "scope": "Explicit differences between complete private archival capture and the English-only public tree. Original files remain unmodified in the private preservation copy.",
+  "omitted_files": [
+    {
+      "path": "archive/v1/documents/build_documents.py",
+      "bytes": 17394,
+      "sha256": "a356bc47ec00ab480c104aed79462dd0f78c5bc00ab6505e0607ee264a8591bf",
+      "reason": "Historical document builder contains Chinese text; original bytes retained in the private preservation copy."
+    },
+    {
+      "path": "archive/review_2026_09_27_pre_editorial/document_templates/build_revision.py",
+      "bytes": 17113,
+      "sha256": "6a2543491a86c9fae1482e47c36cc87ca526e538b5648463b11b9f8ef0e6c474",
+      "reason": "Historical document builder contains Chinese text; original bytes retained in the private preservation copy."
+    },
+    {
+      "path": "archive/git_history_2026_09_27/repository_before_revision.bundle",
+      "bytes": 2415721,
+      "sha256": "76f7ca5a79768118e220b428f0d1cdce0d9836fff0841d24f04c86f337b50cef",
+      "reason": "Private backup of existing Git history; the public repository retains its existing Git commits instead of redistributing this duplicate bundle."
+    }
+  ],
+  "updated_public_explanatory_files": [
+    {
+      "path": "archive/git_history_2026_09_27/README.md",
+      "original_sha256": "f2a299059fb579e7b8699f5cbfd6207d61b5751693853194dfe1f3e2e99fb7ae",
+      "public_sha256": "7a41717bf99da7878c056a772f4aaa3a65ff4cc02f04865f4af04becf0144d97",
+      "reason": "Replace instructions referring to the omitted private Git bundle with links to preserved public commit history."
+    }
+  ]
+}

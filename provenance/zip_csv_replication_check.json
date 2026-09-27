@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scope": "All model fields, including coefficients, uncertainty, sample counts, and pre-period tests",
+  "reference_sha256": "f3fe1661dad1c168724202763f48c890b6da9a09d873b3ba3ae29a868765bfb4",
+  "candidate_sha256": "c5fbf158879966e733ea17112b3e8174bd85951f5868920e4975dd92167d6cc2",
+  "models_compared": 20,
+  "numeric_fields_compared": 1039,
+  "maximum_absolute_difference": 2.9753977059954195e-14,
+  "field_at_maximum": "models.event_base.coef.q10.pct_hi",
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-10
+}

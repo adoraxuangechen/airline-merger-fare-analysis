@@ -1,0 +1,59 @@
+{
+  "source_url": "https://data.nber.org/dot-db1a/mktdata79q1to16q3.zip",
+  "source_landing_page": "https://www.nber.org/research/data/department-transportation-db1adb1b",
+  "reference_archive_retrieved_date": "2026-09-21",
+  "audit_date_utc": "2026-09-27",
+  "source_archive_path": "data/mktdata79q1to16q3.zip",
+  "target_path": "data/NBER_2005_2010.csv.gz",
+  "target_bytes": 51105259,
+  "target_sha256": "d1a62471152eeb92ad54215b5201f091caea8dfc7f58b3fb55f07d77d6f38d46",
+  "source_archive_bytes": 211893337,
+  "source_archive_sha256": "75b2fe06890bf54f3466824e0309e3d52a74c3dfc3b22f940000face130ecfa9",
+  "target_rows": 4175354,
+  "comparison": "Select 2005 <= yr <= 2010 from source, preserve source row order, compare all 11 fields row-by-row. Read CSV strings without treating literal NA as missing; trim surrounding whitespace. Integer fields exact. Fare and routing-distance tolerance: abs(source-target) <= 1e-8 + 1e-12*abs(target).",
+  "source_total_rows_scanned": 19436121,
+  "source_selected_rows": 4175354,
+  "string_integer_mismatches": {
+    "cr1": 0,
+    "cr2": 0,
+    "ap1": 0,
+    "ap2": 0,
+    "yr": 0,
+    "qtr": 0,
+    "cop": 0,
+    "pax": 0,
+    "nsdst": 0
+  },
+  "float_exact_mismatches": {
+    "avprc": 206928,
+    "avdst": 21673
+  },
+  "float_tolerance_mismatches": {
+    "avprc": 0,
+    "avdst": 0
+  },
+  "float_max_absolute_difference": {
+    "avprc": 1.1368683772161603e-13,
+    "avdst": 1.1368683772161603e-13
+  },
+  "unmatched_source_rows": 0,
+  "mismatch_examples": [],
+  "year_counts": {
+    "2005": 649626,
+    "2006": 686816,
+    "2007": 697833,
+    "2008": 694563,
+    "2009": 697391,
+    "2010": 749125
+  },
+  "archive_members": [
+    "mktdata79q1to16q3.dta"
+  ],
+  "rows_equal": true,
+  "all_values_equal_within_tolerance": true,
+  "distinct_rows_with_carrier_mismatch": 0,
+  "carrier_mismatch_sample_passengers": 0,
+  "all_carrier_mismatch_source_values_are_literal_NA": true,
+  "all_carrier_mismatch_target_raw_values_are_empty": true,
+  "seconds": 29.479725122451782
+}
